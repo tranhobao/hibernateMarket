@@ -65,7 +65,6 @@ public class NhapHangGui extends JFrame{
 
         showCategory();
 
-        setComboBox1();
 
         setRefreshButton1();
         setInsertButton1();
@@ -138,11 +137,6 @@ public class NhapHangGui extends JFrame{
                 showCategory();
             }
         });
-    }
-
-    private void setComboBox1() {
-        comboBox1.addItem("id");
-        comboBox1.addItem("Name");
     }
 
     private Category getTextFieldCategory() {
